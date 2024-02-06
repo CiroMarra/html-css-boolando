@@ -16,6 +16,10 @@
 
 
 /* ---- GENERAL ---- */
+body {
+    font-family: sans-serif;
+    }
+
 .container {
 
     max-width: 1200px;
@@ -71,6 +75,7 @@
 
 
 
+
 /* ----/GENERAL ---- */
 
 /* ----HEADER---- */
@@ -115,8 +120,29 @@
 /* ----/HEADER---- */
 
 /* ----MAIN---- */
-    main {
-        padding-top: 120px;
+   
+    
+    .row {
+        margin-top: 90px;
     }
 
+    .article-name {
+        font-weight:bolder;
+        font-size:18px;
+        
+
+    }
+    .price {
+        font-size: 12px;
+        font-weight: 800;
+        color: red;
+        
+    }
+
+    .real-price {
+        color: #000;
+        text-decoration: line-through;
+        
+
+    }
 /* ----/MAIN---- */
