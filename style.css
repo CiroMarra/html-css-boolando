@@ -84,7 +84,7 @@ body {
     }
 
     .nav-logo > img {
-        
+        margin-right: 176px;
         height: 24px;
     }
 
@@ -104,26 +104,26 @@ body {
     .card {
         position: relative;
     }
-   
-   .box {
-        background-color: #fff;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 10px;
-        right: 6px;
     
-   }
-
-    .discount {
-    background-color: red;
-    width: 60px;
-    height: 20px;
-    position: absolute;
-    bottom: 106px;
-    left: 0px;
-    
+    .box {
+            background-color: #fff;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 10px;
+            right: 6px;
+        
     }
+
+        .discount {
+        background-color: red;
+        width: 60px;
+        height: 20px;
+        position: absolute;
+        bottom: 106px;
+        left: 0px;
+        
+        }
 
     .sost {
         background-color: green;
@@ -190,7 +190,7 @@ body {
         display: none;
     }
     .card:hover .card-image-hover{
-        display: block;
+        display: inline-block;
     }
 
     .card:hover .card-image-default {
