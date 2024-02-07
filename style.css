@@ -228,12 +228,15 @@ body {
         color: #fff;
         text-decoration: none;
         float: left;
+       
+   
     }
   
 
     .social-link > a {
         color: #fff;
         text-decoration: none;
+        gap: 4px;
     }
 
     .social-link {
