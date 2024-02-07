@@ -154,13 +154,7 @@ body {
         
     }
 
-    .heart {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            
-    }
+   
     
    
 
@@ -206,21 +200,9 @@ body {
         transform: translate(-50%, -50%);
         
     }
-
-    .heart-red {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+   
+    .box:hover .heart {
         color: red;
-    
-    }
-    .box .heart-red {
-    display:none;
-    }
-
-    .box:hover .heart-red {
-        display: block;
     }
   
 
